@@ -193,6 +193,45 @@ button[type="submit"]:hover {
     background: #23a455;
 }
 
+.contact-info {
+    margin-bottom: 2rem;
+    background: #232323;
+    padding: 1.2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+    color: #ccc;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.social-links a {
+    color: #5efc8d;
+    font-size: 1.15rem;
+    text-decoration: none;
+    transition: color .3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.social-links a:hover {
+    color: #23a455;
+    text-decoration: underline;
+}
+
+
 /* Footer */
 footer {
     padding: 1.2rem 0;
